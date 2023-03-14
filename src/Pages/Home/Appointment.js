@@ -12,7 +12,7 @@ const Appointment = () => {
             }}>
 
             <div className='flex-1 hidden lg:block'>
-                <img className='mt-[-100px]' src={doctorSmall} class="" />
+                <img className='mt-[-120px]' src={doctorSmall} class="" />
             </div>
             <div className='flex-1 p-10'>
                 <h3 className='text-xl font-bold text-secondary'>Appointment</h3>
