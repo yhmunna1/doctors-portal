@@ -22,7 +22,7 @@ const Testimonials = () => {
             img: people2
         },
         {
-            _id: 2,
+            _id: 3,
             name: 'Winson Herry',
             location: 'California',
             reviews: 'It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribute to using Content here, content',
@@ -31,11 +31,11 @@ const Testimonials = () => {
     ];
 
     return (
-        <section className='px-12 py-12'>
+        <section className='px-12 pt-28 pb-36'>
             <div className='flex justify-between'>
                 <div>
                     <h3 className='text-xl font-bold text-secondary'>Testimonial</h3>
-                    <h1 class="text-4xl font-normal text-accent">What Our Patients Says</h1>
+                    <h1 className="text-4xl font-normal text-accent">What Our Patients Says</h1>
                 </div>
                 <div>
                     <img src={quote} alt="" className='w-24 lg:w-48' />
