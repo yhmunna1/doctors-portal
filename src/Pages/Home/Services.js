@@ -29,11 +29,11 @@ const Services = () => {
     ]
     return (
         <div className='px-12'>
-            <div className=' pt-12'>
+            <div className=' pt-28'>
                 <h3 className='text-xl font-bold text-secondary text-center'>OUR SERVICES</h3>
                 <h1 className='text-4xl font-normal text-accent text-center'>Services We Provide</h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-20'>
                 {
                     services.map(service => <Service
                         key={service._id}
@@ -42,7 +42,7 @@ const Services = () => {
                 }
             </div>
             <div>
-                <div className="hero min-h-screen pt-12">
+                <div className="hero min-h-screen">
                     <div className="hero-content flex-col lg:flex-row gap-10">
                         <img src={treatment} className="max-w-sm rounded-lg shadow-2xl" />
                         <div>
